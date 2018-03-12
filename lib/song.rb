@@ -41,5 +41,9 @@ class Song
   end
 
   def self.new_from_filename(long)
+    long.split("-")
+    artist = long[0]
+    name = long[1]
+
   end
 end
