@@ -45,5 +45,6 @@ class Song
     artist = div[0]
     name = div[1].split(".")[0]
     song = self.create_by_name(name)
+    song.artist_name = artist
   end
 end
