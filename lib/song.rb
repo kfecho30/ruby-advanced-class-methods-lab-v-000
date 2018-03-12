@@ -29,6 +29,6 @@ class Song
   end
 
   def self.find_by_name(name)
-    Song.all.includes?(name) ? Song.all.name : false
+    Song.all.include?(name) ? Song.all.name : false
   end
 end
