@@ -44,6 +44,6 @@ class Song
     long.split("-")
     artist = long[0]
     name = long[1]
-
+    song = self.create_by_name(name)
   end
 end
